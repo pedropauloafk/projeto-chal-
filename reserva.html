@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Reservar </title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	
+
+	<div id="container"> <!--Inicío do Container-->
+
+		<div id="topo" > <!-- Inicío Topo-->
+			
+			
+			<div id="area-logo"	> <!-- Inicio logo -->
+
+				<h1 class="logo"> 
+				
+					
+				<a href="index.html"> Chalé Hotel</a>
+				
+				</h1>
+
+
+			</div>	<!-- Fim logo-->
+
+
+
+			<div id="area-menu"> <!-- Inicio menu-->
+
+
+				<div id="conteudo-menu">
+
+
+					<div id="menu-locais"> <!--Inicío menu-locais -->
+
+						<span class="locais">
+
+							Rio de janeiro - São paulo - Belo Horizonte
+
+
+						</span>
+						<a class="reserva" href="reserva.html"> Reservar</a>
+						<div style="clear:both"> </div>
+
+					</div> <!-- fim menu-locais--> 
+
+						<div id="menu">
+
+
+							<ul id="navegacao" > 
+
+								<li> <a href="index.html"> Home</a></li>
+								<li> <a href="historia.html"> História</a></li>
+								<li> <a href=""> Imprensa</a></li>
+								<li> <a href="gastronomia.html"> Gastronomia</a></li>
+								<li> <a href="contato.html"> Contato</a></li>
+
+							</ul>
+
+
+							<img class="depoimento" src="imagens/depoimento.png" alt="">
+
+
+
+						</div>
+
+
+
+				</div>
+
+			</div>	<!-- Fim menu-->
+
+		</div>
+
+			<div id="conteudo-reserva">
+
+				<h2>  Reservar Hotel </h2>
+
+
+				<div >
+
+				<form action="" method="POST" enctype="multipart/form-data" ></form>
+
+
+					<div>
+
+					<label for=""> Nome	   </label>
+					<input  name="nome"  required="required" placeholder="Digite seu nome" type="text">
+						
+				</div>
+				<div>
+
+					<label for=""> E-mail  </label>
+					<input  name="e-mail"  required="required" placeholder="Digite seu e-mail" type="text">
+						
+				</div>
+
+				<div>
+
+					<label for=""> Selecione sua cidade  </label>
+					<select  required="required"  name="cidade" id="">
+					<option  selected="selected" value=""> Selecione </option>
+					<option value="1"> Brasília </option>
+					<option value="2"> Belo Horizonte </option>
+					<option value="3"> Curitiba</option>
+					<option value="4"> Sao paulo </option>
+					<option value="5"> Rio de janeiro </option>	
+					<option value="6"> Pernanbuco </option>
+					<option value="7"> Ceará</option>
+					<option value="8"> Bahia </option>
+					<option value="9"> Espírito santo </option>
+					<option value="10"> Cuíaba </option>
+					<option value="11"> Santa catarina </option>		
+
+
+
+					</select>
+					
+
+				</div>
+
+				<div>
+
+					<label for=""> Sua foto  </label>
+					<input  required="required" name="foto"  type="file">
+
+
+				</div>
+				<div>
+					<p>	Selecione seu sexo	</p>
+				<label for="v1"> <input  name="sexo" id="v1" value="m"  type="radio"> Masculino  </label>
+				<label for="v2"> <input  name="sexo"  id="v2"  value="f"  type="radio"> Feminino  </label>
+					<br><br><br><br><br> 
+
+				</div>
+
+				<div>
+					<label for=""> Digite alguma dúvida em relação ao Hotel </label> <br>
+					<textarea name="biografia" required="required"  id="" cols="30" rows="10" placeholder="Digite sua dúvida"></textarea>
+
+
+				</div>
+
+				<div>
+
+					<label for="noticias">
+					
+					<input  name="newsletter" id="noticias"	type="checkbox">
+						Deseja receber e-mails promocionais ?
+
+					</label>
+
+
+				</div>
+
+				<div>
+
+					<button type="submit" name="enviar"  value="1" >	Enviar	</button>
+
+
+				</div>
+
+
+
+				</form>
+			</div>
+
+			</div>
+
+
+			<div style="text-align: center;" id="rodape">
+
+				<span >	&copy; Copyright 2000-2020 Chalé Hotel 	</span>
+	
+			</div>
+
+		
+
+	</div> <!-- Fim Container-->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
